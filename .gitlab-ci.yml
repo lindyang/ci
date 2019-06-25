@@ -1,0 +1,6 @@
+before_script:
+    - apt install vim
+
+run-test:
+    script:
+        - python -V
