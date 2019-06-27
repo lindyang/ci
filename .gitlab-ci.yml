@@ -1,7 +1,10 @@
 before_script:
+    - apt update
     - apt install -y python3
 
 run-test:
     script:
         - pwd
         - ls -al
+        - python -V
+        - python3 -V
