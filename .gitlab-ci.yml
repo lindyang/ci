@@ -8,6 +8,7 @@ whoami:
     script:
         - whoami
 
+# https://stackoverflow.com/questions/38723788/how-to-run-python-unit-tests-with-xml-output
 JUnit:
     stage: test
     script:

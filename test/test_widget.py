@@ -15,7 +15,7 @@ class WidgetTestCase(TestCase):
 
     def test_Resize(self):
         self.widget.resize(100, 100)
-        self.assertEqual(self.widget.get_size(), (100, 1100))
+        self.assertEqual(self.widget.get_size(), (100, 100))
 
 
 if __name__ == '__main__':
