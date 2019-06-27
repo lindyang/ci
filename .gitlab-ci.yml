@@ -1,5 +1,5 @@
 before_script:
-    - whoami
+    - apt install -y python3
 
 run-test:
     script:
