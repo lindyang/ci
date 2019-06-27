@@ -1,7 +1,5 @@
 before_script:
     - whoami
-    - apt update
-    - apt install vim
 
 run-test:
     script:
