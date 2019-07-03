@@ -1,4 +1,4 @@
-class Widget(object):
+class Widget:
     def __init__(self, size=(40, 40)):
         self._size = size
 
