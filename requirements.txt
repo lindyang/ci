@@ -1,1 +1,2 @@
 -r devRequirements.txt
+alembic==1.0.10
