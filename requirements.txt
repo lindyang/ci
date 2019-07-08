@@ -1,2 +1,3 @@
 -r devRequirements.txt
 alembic==1.0.10
+SQLAlchemy==1.3.5
