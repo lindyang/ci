@@ -1,8 +1,5 @@
 before_script:
-    - apt update
-    - apt install -y python3
-    - apt install -y python3-pip
-    - pip3 install pytest -i https://pypi.douban.com/simple
+    - pip install pytest -i https://pypi.douban.com/simple
 
 whoami:
     script:
